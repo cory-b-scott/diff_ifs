@@ -30,6 +30,8 @@ This script will expect to same intermediate image files in a folder named resul
 
 It will also periodically produce a checkpoint of the fractal's parameters in a file [NAME].pt.
 
+See diff_ifs.yaml for python dependencies and associated version numbers. 
+
 Once you have found a configuration that is reasonably low-error, then you can render a high-res version of it with
 
 python render_ifs.py [NAME] [RECURSION] [RESOLUTION]
